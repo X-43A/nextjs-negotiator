@@ -1,3 +1,6 @@
+I created this fork to make this module work with nextjs.
+Disclaimer: I'm not responsible for anything. I've only tested Accept-Language Negotiation which appears to be working up until now.
+
 # negotiator
 
 [![NPM Version][npm-image]][npm-url]
@@ -11,7 +14,7 @@ An HTTP content negotiator for Node.js
 ## Installation
 
 ```sh
-$ npm install negotiator
+$  npm install https://github.com/X-43A/nextjs-negotiator/tree/nextjs
 ```
 
 ## API
