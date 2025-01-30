@@ -14,7 +14,7 @@ An HTTP content negotiator for Node.js
 ## Installation
 
 ```sh
-$  npm install https://github.com/X-43A/nextjs-negotiator/tree/nextjs
+$  npm install https://github.com/X-43A/nextjs-negotiator
 ```
 
 ## API
