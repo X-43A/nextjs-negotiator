@@ -1,11 +1,12 @@
 {
-  "name": "negotiator",
+  "name": "nextjs-negotiator",
   "description": "HTTP content negotiation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Federico Romero <federico.romero@outboxlabs.com>",
-    "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)"
+    "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+    "me"
   ],
   "license": "MIT",
   "keywords": [
@@ -16,7 +17,7 @@
     "accept-encoding",
     "accept-charset"
   ],
-  "repository": "jshttp/negotiator",
+  "repository": "X-43A/nextjs-negotiator",
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-plugin-markdown": "2.2.1",
