@@ -41,7 +41,7 @@ Negotiator.prototype.charset = function charset(available) {
 };
 
 Negotiator.prototype.charsets = function charsets(available) {
-  return preferredCharsets(this.request.headers['accept-charset'], available);
+  return preferredCharsets(this.request.headers.get('accept-charset'), available);
 };
 
 Negotiator.prototype.encoding = function encoding(available, opts) {
@@ -51,7 +51,7 @@ Negotiator.prototype.encoding = function encoding(available, opts) {
 
 Negotiator.prototype.encodings = function encodings(available, options) {
   var opts = options || {};
-  return preferredEncodings(this.request.headers['accept-encoding'], available, opts.preferred);
+  return preferredEncodings(this.request.headers.get('accept-encoding'), available, opts.preferred);
 };
 
 Negotiator.prototype.language = function language(available) {
@@ -60,7 +60,7 @@ Negotiator.prototype.language = function language(available) {
 };
 
 Negotiator.prototype.languages = function languages(available) {
-  return preferredLanguages(this.request.headers['accept-language'], available);
+  return preferredLanguages(this.request.headers.get('accept-language'), available);
 };
 
 Negotiator.prototype.mediaType = function mediaType(available) {
@@ -69,7 +69,7 @@ Negotiator.prototype.mediaType = function mediaType(available) {
 };
 
 Negotiator.prototype.mediaTypes = function mediaTypes(available) {
-  return preferredMediaTypes(this.request.headers.accept, available);
+  return preferredMediaTypes(this.request.headers.get('accept'), available);
 };
 
 // Backwards compatibility
